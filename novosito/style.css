@@ -163,6 +163,7 @@ footer {
 		
 	}
 	.mobile-menu {
+		margin-right: -115px;
   overflow: hidden;
 }
 	.mobile-content {
@@ -170,8 +171,8 @@ footer {
   display: none;
   position: absolute;
   background-color: #000000;
-  width: 410px;
-  margin-left: -350px;
+  width: 440px;
+  margin-left: -390px;
 		
 }
 .mobile-content a {
