@@ -9,17 +9,32 @@
 <body>
 <div class="example img1">
   <header class="transition">
-    <nav>
-      <ul>
+    <nav class="navbar">
+      <div id="menu-toggle">
+		   <div class="mobile-menu positionx">
+			<button class="mobile-button">
+         <img src="img/menu.png" width="40%" height="40%" alt="menu"> 
+		     </button>
+      <div class="mobile-content">
+        <a href="#">GIOCHI</a>
+        <a href="#">NEGOZI</a>
+        <a href="#">ESPORT</a>
+		  <a href="#">Assistenza</a>
+		  <a href="#">Il mio account</a>
+		  
+      </div>
+  </div>
+      </div>
+      <ul class="open desktop">
         <li>
-          <div class="logo"><img src="img/logo.png" alt="Blizzard Logo" width="50%" height="50%"> </div>
+          <div class="logo"><a href="#"><img src="img/logo.png" alt="Blizzard Logo" width="70%" height="70%"></a></div>
         </li>
-        <li class="position hidden"> GIOCHI </li>
-        <li class="position hidden"> NEGOZIO </li>
-        <li class="position hidden"> NOTIZIE </li>
-        <li class="position hidden"> ESPORT </li>
-        <li class="positionx hidden">Assistenza</li>
-        <li class="positionx hidden">Il mio account</li>
+        <li class="position hidden"><a href="#"> GIOCHI</a></li>
+        <li class="position hidden"> <a href="#">NEGOZIO</a></li>
+        <li class="position hidden"> <a href="#">NOTIZIE</a></li>
+        <li class="position hidden"> <a href="#">ESPORT</a></li>
+        <li class="positionx hidden"><a href="#">Assistenza</a></li>
+        <li class="positionx hidden"><a href="#">Il mio account</a></li>
       </ul>
     </nav>
   </header>
