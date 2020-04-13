@@ -168,6 +168,7 @@ footer {
   text-align: left;
 }
 .text3{
+	margin-top: 100px;
 	flex-direction: column;
 	
 	font-size: 20px;
@@ -186,7 +187,7 @@ p{
   background: aquamarine;
   float: right;
   margin: 15px;
-	border: 5px solid #1553F5;
+  border: 5px solid #1553F5;
 	
 }
 .box1:hover {
@@ -201,6 +202,7 @@ p{
 	
   background-image: url("img/diablo.jpg");
   transition: filter .3s ease-in-out;
+	background-size: 300px 100px;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
@@ -210,7 +212,8 @@ p{
   filter: grayscale(100%); /* FF 35+ */
 }
 .img3 {
-  background-image: url("img/starcraft.jpg");
+	background-size: 300px 300px;
+  background-image: url("img/overwatch copia.jpg");
   transition: filter .3s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
