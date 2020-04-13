@@ -203,13 +203,17 @@ p {
   transform: scale(1.1);
 }
 .img2 {
+	
   background-image: url("img/starcraft.jpg");
   transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
   background-size: 300px 300px;
+   
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
 .img2:hover {
+  background-size: 310px 310px;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
@@ -217,21 +221,25 @@ p {
   background-size: 300px 300px;
   background-image: url("img/overwatch.jpg");
   transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
 .img3:hover {
+  background-size: 310px 310px;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
 .img4 {
-	 background-size: 300px 300px;
+  background-size: 300px 300px;
   background-image: url("img/diablo.jpg");
   transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
 .img4:hover {
+  background-size: 310px 310px;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
